@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7794C75D28F0178900861F05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C75C28F0178900861F05 /* AppDelegate.swift */; };
+		7794C75F28F0178900861F05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C75E28F0178900861F05 /* SceneDelegate.swift */; };
+		7794C76128F0178900861F05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C76028F0178900861F05 /* ViewController.swift */; };
+		7794C76628F0178B00861F05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7794C76528F0178B00861F05 /* Assets.xcassets */; };
+		7794C76928F0178B00861F05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7794C76728F0178B00861F05 /* LaunchScreen.storyboard */; };
+		7794C77428F0178B00861F05 /* Cigari_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C77328F0178B00861F05 /* Cigari_PracticeTests.swift */; };
+		7794C77E28F0178B00861F05 /* Cigari_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C77D28F0178B00861F05 /* Cigari_PracticeUITests.swift */; };
+		7794C78028F0178B00861F05 /* Cigari_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C77F28F0178B00861F05 /* Cigari_PracticeUITestsLaunchTests.swift */; };
+		7794C78E28F017F700861F05 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C78D28F017F700861F05 /* RxCocoa */; };
+		7794C79028F017F700861F05 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C78F28F017F700861F05 /* RxSwift */; };
+		7794C79328F0184000861F05 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C79228F0184000861F05 /* SnapKit */; };
+		7794C79628F0185D00861F05 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C79528F0185D00861F05 /* Then */; };
+		7794C79928F018DD00861F05 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C79828F018DD00861F05 /* Moya */; };
+		7794C79B28F018DD00861F05 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7794C79A28F018DD00861F05 /* RxMoya */; };
+		7794C7A428F01C1400861F05 /* repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7A328F01C1400861F05 /* repository.swift */; };
+		7794C7A928F01C6A00861F05 /* entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7A828F01C6A00861F05 /* entity.swift */; };
+		7794C7AB28F01C7300861F05 /* interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7AA28F01C7300861F05 /* interface.swift */; };
+		7794C7AD28F01C7E00861F05 /* usecase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7AC28F01C7E00861F05 /* usecase.swift */; };
+		7794C7B228F01CC200861F05 /* cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7B128F01CC200861F05 /* cell.swift */; };
+		7794C7B628F01CD400861F05 /* viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7794C7B528F01CD400861F05 /* viewmodel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7794C77028F0178B00861F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7794C75128F0178900861F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7794C75828F0178900861F05;
+			remoteInfo = "Cigari-Practice";
+		};
+		7794C77A28F0178B00861F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7794C75128F0178900861F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7794C75828F0178900861F05;
+			remoteInfo = "Cigari-Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7794C75928F0178900861F05 /* Cigari-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cigari-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794C75C28F0178900861F05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7794C75E28F0178900861F05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7794C76028F0178900861F05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7794C76528F0178B00861F05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7794C76828F0178B00861F05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7794C76A28F0178B00861F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7794C76F28F0178B00861F05 /* Cigari-PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cigari-PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794C77328F0178B00861F05 /* Cigari_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cigari_PracticeTests.swift; sourceTree = "<group>"; };
+		7794C77928F0178B00861F05 /* Cigari-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cigari-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7794C77D28F0178B00861F05 /* Cigari_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cigari_PracticeUITests.swift; sourceTree = "<group>"; };
+		7794C77F28F0178B00861F05 /* Cigari_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cigari_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7794C7A328F01C1400861F05 /* repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = repository.swift; sourceTree = "<group>"; };
+		7794C7A828F01C6A00861F05 /* entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entity.swift; sourceTree = "<group>"; };
+		7794C7AA28F01C7300861F05 /* interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interface.swift; sourceTree = "<group>"; };
+		7794C7AC28F01C7E00861F05 /* usecase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usecase.swift; sourceTree = "<group>"; };
+		7794C7B128F01CC200861F05 /* cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cell.swift; sourceTree = "<group>"; };
+		7794C7B528F01CD400861F05 /* viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmodel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7794C75628F0178900861F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794C79B28F018DD00861F05 /* RxMoya in Frameworks */,
+				7794C79328F0184000861F05 /* SnapKit in Frameworks */,
+				7794C79028F017F700861F05 /* RxSwift in Frameworks */,
+				7794C78E28F017F700861F05 /* RxCocoa in Frameworks */,
+				7794C79928F018DD00861F05 /* Moya in Frameworks */,
+				7794C79628F0185D00861F05 /* Then in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C76C28F0178B00861F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C77628F0178B00861F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7794C75028F0178900861F05 = {
+			isa = PBXGroup;
+			children = (
+				7794C75B28F0178900861F05 /* Cigari-Practice */,
+				7794C77228F0178B00861F05 /* Cigari-PracticeTests */,
+				7794C77C28F0178B00861F05 /* Cigari-PracticeUITests */,
+				7794C75A28F0178900861F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7794C75A28F0178900861F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7794C75928F0178900861F05 /* Cigari-Practice.app */,
+				7794C76F28F0178B00861F05 /* Cigari-PracticeTests.xctest */,
+				7794C77928F0178B00861F05 /* Cigari-PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7794C75B28F0178900861F05 /* Cigari-Practice */ = {
+			isa = PBXGroup;
+			children = (
+				7794C79E28F01B6500861F05 /* Application */,
+				7794C79D28F01B5E00861F05 /* Data */,
+				7794C79C28F01B5400861F05 /* Domain */,
+				7794C79F28F01B7300861F05 /* Presentation */,
+				7794C7A028F01B8100861F05 /* Util */,
+				7794C7A128F01B8D00861F05 /* Resource */,
+				7794C76A28F0178B00861F05 /* Info.plist */,
+			);
+			path = "Cigari-Practice";
+			sourceTree = "<group>";
+		};
+		7794C77228F0178B00861F05 /* Cigari-PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				7794C77328F0178B00861F05 /* Cigari_PracticeTests.swift */,
+			);
+			path = "Cigari-PracticeTests";
+			sourceTree = "<group>";
+		};
+		7794C77C28F0178B00861F05 /* Cigari-PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7794C77D28F0178B00861F05 /* Cigari_PracticeUITests.swift */,
+				7794C77F28F0178B00861F05 /* Cigari_PracticeUITestsLaunchTests.swift */,
+			);
+			path = "Cigari-PracticeUITests";
+			sourceTree = "<group>";
+		};
+		7794C79C28F01B5400861F05 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7A528F01C2400861F05 /* Entity */,
+				7794C7A628F01C3300861F05 /* Interfaces */,
+				7794C7A728F01C4000861F05 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7794C79D28F01B5E00861F05 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7A228F01BFE00861F05 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7794C79E28F01B6500861F05 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7794C75C28F0178900861F05 /* AppDelegate.swift */,
+				7794C75E28F0178900861F05 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7794C79F28F01B7300861F05 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7AE28F01C9700861F05 /* Cell */,
+				7794C7AF28F01C9E00861F05 /* View */,
+				7794C7B028F01CA300861F05 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		7794C7A028F01B8100861F05 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7B928F01D5600861F05 /* Base */,
+				7794C7B828F01D4600861F05 /* Extension */,
+				7794C7B728F01D3D00861F05 /* Protocol */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7794C7A128F01B8D00861F05 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7794C76528F0178B00861F05 /* Assets.xcassets */,
+				7794C76728F0178B00861F05 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7794C7A228F01BFE00861F05 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7A328F01C1400861F05 /* repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		7794C7A528F01C2400861F05 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7A828F01C6A00861F05 /* entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		7794C7A628F01C3300861F05 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7AA28F01C7300861F05 /* interface.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		7794C7A728F01C4000861F05 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7AC28F01C7E00861F05 /* usecase.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		7794C7AE28F01C9700861F05 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7B128F01CC200861F05 /* cell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7794C7AF28F01C9E00861F05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7794C76028F0178900861F05 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7794C7B028F01CA300861F05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7794C7B528F01CD400861F05 /* viewmodel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7794C7B728F01D3D00861F05 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7794C7B828F01D4600861F05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7794C7B928F01D5600861F05 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7794C75828F0178900861F05 /* Cigari-Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794C78328F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-Practice" */;
+			buildPhases = (
+				7794C75528F0178900861F05 /* Sources */,
+				7794C75628F0178900861F05 /* Frameworks */,
+				7794C75728F0178900861F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cigari-Practice";
+			packageProductDependencies = (
+				7794C78D28F017F700861F05 /* RxCocoa */,
+				7794C78F28F017F700861F05 /* RxSwift */,
+				7794C79228F0184000861F05 /* SnapKit */,
+				7794C79528F0185D00861F05 /* Then */,
+				7794C79828F018DD00861F05 /* Moya */,
+				7794C79A28F018DD00861F05 /* RxMoya */,
+			);
+			productName = "Cigari-Practice";
+			productReference = 7794C75928F0178900861F05 /* Cigari-Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7794C76E28F0178B00861F05 /* Cigari-PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794C78628F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-PracticeTests" */;
+			buildPhases = (
+				7794C76B28F0178B00861F05 /* Sources */,
+				7794C76C28F0178B00861F05 /* Frameworks */,
+				7794C76D28F0178B00861F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7794C77128F0178B00861F05 /* PBXTargetDependency */,
+			);
+			name = "Cigari-PracticeTests";
+			productName = "Cigari-PracticeTests";
+			productReference = 7794C76F28F0178B00861F05 /* Cigari-PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7794C77828F0178B00861F05 /* Cigari-PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7794C78928F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-PracticeUITests" */;
+			buildPhases = (
+				7794C77528F0178B00861F05 /* Sources */,
+				7794C77628F0178B00861F05 /* Frameworks */,
+				7794C77728F0178B00861F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7794C77B28F0178B00861F05 /* PBXTargetDependency */,
+			);
+			name = "Cigari-PracticeUITests";
+			productName = "Cigari-PracticeUITests";
+			productReference = 7794C77928F0178B00861F05 /* Cigari-PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7794C75128F0178900861F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					7794C75828F0178900861F05 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					7794C76E28F0178B00861F05 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7794C75828F0178900861F05;
+					};
+					7794C77828F0178B00861F05 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 7794C75828F0178900861F05;
+					};
+				};
+			};
+			buildConfigurationList = 7794C75428F0178900861F05 /* Build configuration list for PBXProject "Cigari-Practice" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7794C75028F0178900861F05;
+			packageReferences = (
+				7794C78C28F017F700861F05 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				7794C79128F0184000861F05 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7794C79428F0185D00861F05 /* XCRemoteSwiftPackageReference "Then" */,
+				7794C79728F018DD00861F05 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = 7794C75A28F0178900861F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7794C75828F0178900861F05 /* Cigari-Practice */,
+				7794C76E28F0178B00861F05 /* Cigari-PracticeTests */,
+				7794C77828F0178B00861F05 /* Cigari-PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7794C75728F0178900861F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794C76928F0178B00861F05 /* LaunchScreen.storyboard in Resources */,
+				7794C76628F0178B00861F05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C76D28F0178B00861F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C77728F0178B00861F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7794C75528F0178900861F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794C76128F0178900861F05 /* ViewController.swift in Sources */,
+				7794C75D28F0178900861F05 /* AppDelegate.swift in Sources */,
+				7794C7A928F01C6A00861F05 /* entity.swift in Sources */,
+				7794C75F28F0178900861F05 /* SceneDelegate.swift in Sources */,
+				7794C7AD28F01C7E00861F05 /* usecase.swift in Sources */,
+				7794C7B228F01CC200861F05 /* cell.swift in Sources */,
+				7794C7A428F01C1400861F05 /* repository.swift in Sources */,
+				7794C7B628F01CD400861F05 /* viewmodel.swift in Sources */,
+				7794C7AB28F01C7300861F05 /* interface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C76B28F0178B00861F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794C77428F0178B00861F05 /* Cigari_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7794C77528F0178B00861F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7794C78028F0178B00861F05 /* Cigari_PracticeUITestsLaunchTests.swift in Sources */,
+				7794C77E28F0178B00861F05 /* Cigari_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7794C77128F0178B00861F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7794C75828F0178900861F05 /* Cigari-Practice */;
+			targetProxy = 7794C77028F0178B00861F05 /* PBXContainerItemProxy */;
+		};
+		7794C77B28F0178B00861F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7794C75828F0178900861F05 /* Cigari-Practice */;
+			targetProxy = 7794C77A28F0178B00861F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7794C76728F0178B00861F05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7794C76828F0178B00861F05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7794C78128F0178B00861F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7794C78228F0178B00861F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7794C78428F0178B00861F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cigari-Practice/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7794C78528F0178B00861F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cigari-Practice/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7794C78728F0178B00861F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cigari-Practice.app/Cigari-Practice";
+			};
+			name = Debug;
+		};
+		7794C78828F0178B00861F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cigari-Practice.app/Cigari-Practice";
+			};
+			name = Release;
+		};
+		7794C78A28F0178B00861F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cigari-Practice";
+			};
+			name = Debug;
+		};
+		7794C78B28F0178B00861F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 397WA8BG8W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eunju.Cigari-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cigari-Practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7794C75428F0178900861F05 /* Build configuration list for PBXProject "Cigari-Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794C78128F0178B00861F05 /* Debug */,
+				7794C78228F0178B00861F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794C78328F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794C78428F0178B00861F05 /* Debug */,
+				7794C78528F0178B00861F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794C78628F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794C78728F0178B00861F05 /* Debug */,
+				7794C78828F0178B00861F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7794C78928F0178B00861F05 /* Build configuration list for PBXNativeTarget "Cigari-PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7794C78A28F0178B00861F05 /* Debug */,
+				7794C78B28F0178B00861F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7794C78C28F017F700861F05 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		7794C79128F0184000861F05 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7794C79428F0185D00861F05 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		7794C79728F018DD00861F05 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7794C78D28F017F700861F05 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C78C28F017F700861F05 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		7794C78F28F017F700861F05 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C78C28F017F700861F05 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		7794C79228F0184000861F05 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C79128F0184000861F05 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		7794C79528F0185D00861F05 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C79428F0185D00861F05 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		7794C79828F018DD00861F05 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C79728F018DD00861F05 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		7794C79A28F018DD00861F05 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7794C79728F018DD00861F05 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7794C75128F0178900861F05 /* Project object */;
+}
